@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&family=Open+Sans:ital,wght@0,100;0,300;0,400;0,800;1,800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,400;0,900;1,800;1,900&family=Jura:wght@300;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.slick-dots {
+  bottom: -65px;
+}
+
+.active_lang{
+  background-color: #FC9E92 !important;
+  color: #292493 !important
+}
+
+@media screen and (max-width: 480px) {
+  .slick-dots {
+    bottom: -95px;
+  }
+}
